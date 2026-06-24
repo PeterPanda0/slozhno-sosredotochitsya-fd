@@ -152,7 +152,6 @@
 @media (min-width: 1024px) {
   .header__theme-menu-list {
     flex-direction: row;
-    flex-direction: row;
     align-items: center;
     gap: 15px;
     padding-left: 28px;
