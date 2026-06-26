@@ -10,7 +10,7 @@
   --button-hover-color: #32312d66;
 }
 
-:root.theme-light .header__status {
+:root.theme-light .header__rec {
   display: none;
 }
 
@@ -27,7 +27,7 @@
     --button-hover-color: #32312d66;
   }
 
-  .header__status {
+  .header__rec {
     display: none;
   }
 }

@@ -1,3 +1,15 @@
-.header__status {
+:root.theme-dark {
+  --page-background-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --text-color: #000028;
+  --theme-button: #ff0070;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --card-text-color: #f1b2ce;
+  --corner-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.5);
+}
+
+:root.theme-dark .header__rec {
   display: flex;
 }
