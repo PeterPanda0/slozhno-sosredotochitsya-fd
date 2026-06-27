@@ -251,8 +251,8 @@
 
 @media (min-width: 768px) {
   .content {
-    padding: 60px 20px 40px 20px;
     gap: 81px;
+    padding: 60px 20px 40px 20px;
   }
 }
 
@@ -337,8 +337,8 @@
   .section_tips {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
     align-items: start;
+    gap: 20px;
   }
 
   .section_reasons .section__title,
@@ -467,13 +467,6 @@
   .section_gallery .gallery__item:nth-child(5) {
     grid-column: 2 / span 2;
     grid-row: 3;
-  }
-}
-
-@media (min-width: 1024px) {
-  .section_gallery {
-    grid-template-rows: auto 1fr;
-    justify-content: start;
   }
 }
 
