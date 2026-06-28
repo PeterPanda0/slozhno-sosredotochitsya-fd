@@ -114,7 +114,7 @@
   grid-row: 1;
   justify-self: end;
   align-self: center;
-  width: 70px;
+  max-width: 70px;
   margin-top: 0;
 }
 
@@ -123,7 +123,7 @@
     grid-column: 1;
     justify-self: center;
     align-self: start;
-    width: 273px;
+    max-width: 273px;
   }
 }
 
@@ -138,8 +138,7 @@
   .header__theme-menu-list {
     flex-direction: row;
     align-items: center;
-    gap: 15px;
-    padding-left: 28px;
+    padding-left: 20px;
   }
 }
 
@@ -219,8 +218,7 @@
   .header__subtitle {
     justify-self: end;
     align-self: center;
-    width: 364px;
-    max-width: 100%;
+    max-width: 364px;
     margin-top: 0;
   }
 }
@@ -228,7 +226,7 @@
 @media (min-width: 1024px) {
   .header__subtitle {
     align-self: end;
-    width: 491px;
+    max-width: 491px;
     margin-bottom: 115px;
   }
 }
