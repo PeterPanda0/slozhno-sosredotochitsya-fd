@@ -249,7 +249,7 @@
 @media (min-width: 768px) {
   .content {
     gap: 81px;
-    padding: 60px 20px 40px 20px;
+    padding: 60px 20px;
   }
 }
 
@@ -341,13 +341,11 @@
   .section_reasons .section__title,
   .section_tips .section__title {
     grid-column: 1;
-    width: 100%;
   }
 
   .section_reasons .section__cards-container,
   .section_tips .section__cards-container {
     grid-column: 2;
-    width: 100%;
   }
 }
 
@@ -423,13 +421,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     gap: 20px;
-    margin-bottom: 20px;
   }
 
   .section_gallery .card__title.title-decor {
     grid-column: 1;
     grid-row: 1;
-    width: 100%;
   }
 
   .section_gallery .gallery {
@@ -438,7 +434,6 @@
     grid-column: 1;
     grid-row: 2;
     gap: 20px;
-    width: 100%;
   }
 
   .section_gallery .gallery__item:nth-child(1) {
